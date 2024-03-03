@@ -8,6 +8,7 @@ h1{
     padding:0;
     font-family: 'Fredericka the Great', serif;
     font-weight: 500;
+    display:inline;
 }
 h2{
     color: white; 
@@ -45,7 +46,11 @@ dl{
     text-align: left;
 }
 #container0{
-a{
-    font-family: 'Times New Roman', Times, serif;
+    
+    float: left;
 }
+#container4{
+    width: 40%;
+    margin: auto;
+    text-align: center;
 }
