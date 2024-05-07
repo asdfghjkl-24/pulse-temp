@@ -1,0 +1,332 @@
+/* background */
+body {
+    background-image: url(pulse\ background-resized-coloured.jpg);
+    background-size: contain;
+  }
+
+/* header */
+header {
+  img {
+    min-width: 20%;
+    max-width: 28%;
+    height: auto;
+  }
+  #topbar{
+    background-image: url(bio-paper.png);
+    background-size: 87% 50%;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin-left: 30%;
+    margin-top: -14%;
+    padding-bottom: 20%;
+  }
+  #toplinks{
+    font-family: Handjet, Serif;
+    font-size: 2.5vw;
+    margin-top: -17%;
+    margin-left: 33%;
+    padding-left: -10%;
+    padding-bottom: 10%;
+    a {
+      padding-right: 3%;
+    }
+  }
+  #issue-2{
+    width: 25%;
+    text-align: right;
+    margin-left: 74%;
+    margin-top: -14.5%;
+    padding-bottom: 7%;
+  }
+  }
+
+/* sidebar */
+#sidebar{
+  background-image: url(sidebar-paper.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 5%;
+  margin-right: 83%;
+  margin-left: -4%;
+  position: absolute;
+
+  p{
+    font-family: Handjet, serif;
+    margin-right: 0%;
+    line-height: 1.5;
+    margin-left: 10%;
+    padding: 10% 10% 20% 10%;
+    position: relative;
+    font-size: 2vw;
+  }
+  a{
+    font-family: Handjet, serif;
+    margin-right: 0%;
+    line-height: 1.5;
+    margin-left: 10%;
+    padding: 10% 10% 20% 10%;
+    position: relative;
+    font-size: 2vw;
+  }
+}
+
+/* titles - title, title-tw or long-title*/
+
+#works{
+    background-image: url(bio-paper.png);
+    margin-left: 20%;
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+   padding-top: 2%;
+  padding-right: 3%;
+    a{
+      font-family: 'Handjet', serif;
+      font-size: 5vw;
+      margin-top: 9%;
+      margin-right: 1%;
+      padding-left: 14%;
+      margin-left: -7%;
+    }
+    h2{
+      display: inline;
+      text-align: left;
+      font-family: Handjet, serif;
+      font-size: 2.7vw;
+      margin-left: 0%;
+      margin-top: 2%;
+      padding-bottom: 0px;
+      margin-bottom: 0px;
+      padding-right: 0%;
+      font-weight: normal;
+    }
+    p{
+      font-family: Arial, Helvetica, sans-serif ;
+      margin-bottom: 1%;
+      padding-bottom: 4%;
+      margin-left: 9%;
+      margin-top: 1.5%;
+      font-size: 1.7vw;
+    }
+  }
+
+  #very-long-works{
+    background-image: url(bio-paper.png);
+    margin-left: 20%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding-top: 2%;
+    padding-right: 3%;
+
+    #link{
+    font-family: 'Handjet', serif;
+    font-size: 4.5vw;
+    margin-top: 1%;
+    margin-right: 1%;
+    margin-left: 7%;
+    h2{
+        display: inline;
+        text-align: left;
+        font-family: Handjet, serif;
+        font-size: 2.7vw;
+        font-weight: normal;
+      }
+    }
+    p{
+      font-family: Arial, Helvetica, sans-serif ;
+      margin-bottom: 0%;
+      padding-bottom: 6%;
+      margin-left: 9%;
+      margin-top: 1.5%;
+      font-size: 1.7vw;
+    }
+  }
+
+  #long-works{
+    background-image: url(bio-paper.png);
+    margin-left: 20%;
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+   margin-top: 0%;
+   padding-top: 2%;
+  padding-right: 3%;
+    a{
+      margin-left: 7%;
+      font-family: 'Handjet', serif;
+      font-size: 5vw;
+      padding-top: 0%;
+      padding-bottom: 0%;
+      margin-top: 9%;
+      margin-bottom: 0%;
+      margin-right: -9%;
+    }
+    h2{
+      text-align: left;
+      font-family: Handjet, serif;
+      font-size: 2.7vw;
+      margin-left: 8%;
+      margin-top: 1%;
+      padding-bottom: 0px;
+      margin-bottom: 0px;
+      padding-right: 0%;
+      font-weight: normal;
+    }
+    p{
+      font-family: Arial, Helvetica, sans-serif ;
+      margin-bottom: 1%;
+      padding-bottom: 4%;
+      margin-left: 9%;
+      margin-top: 1.5%;
+      font-size: 1.7vw;
+      a{
+        font-family: Arial, Helvetica, sans-serif ;
+        margin-bottom: 1%;
+        padding-bottom: 4%;
+        margin-left: 3%;
+        margin-top: 1.5%;
+        font-size: 2vw;
+      }
+    }
+  }
+
+#works-tw{
+  background-image: url(title-paper.png);
+  margin-left: 20%;
+ background-size: 100% 100%;
+ background-repeat: no-repeat;
+ margin-top: 0%;
+ padding-top: 2%;
+padding-right: 7%;
+margin-bottom: 1%;
+padding-bottom: 0%;
+  a{
+    text-align: left;
+    margin-left: 7%;
+    font-family: 'Handjet', serif;
+    font-size: 5vw;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    margin-top: 9%;
+    margin-bottom: 0%;
+    margin-right: 1%;
+  }
+  h2{
+    display: inline;
+    text-align: left;
+    font-family: Handjet, serif;
+    font-size: 2.7vw;
+    margin-left: 0%;
+    margin-top: 2%;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    padding-right: 0%;
+    font-weight: normal
+  }
+  h3{
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vw;
+    margin-left: 9%;
+    margin-top: 1.5%;   
+    font-weight: normal
+  }
+  p{
+    font-family: Arial, Helvetica, sans-serif ;
+    margin-bottom: 1%;
+    padding-bottom: 4%;
+    margin-left: 9%;
+    margin-top: -2%;
+    font-size: 1.7vw;
+  }
+}
+
+#prose{
+    background-image: url(body-paper.png);
+    background-size: auto;
+    background-repeat: repeat-y;
+    margin-left: 15%;
+    margin-top: -4%;
+    p{
+      line-height: 2;
+      font-size: 2vw;
+      font-family: Arial, Helvetica, sans-serif;
+      text-align: left;
+      margin-right: 10px;
+    }
+ /* Extra extra small devices (phones, 400px and down) */
+@media only screen and (max-width: 400px) {
+  p{
+    margin-left: 20%;
+  }
+}
+
+ /* Extra small devices (phones, 400px and up) */
+ @media only screen and (min-width: 400px) {
+  p{
+    margin-left: 17%;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  p{
+    margin-left: 12%;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  p{
+    margin-left: 12%;
+  }
+} 
+
+/* Large devices (laptops/desktops, 820px and up) */
+@media only screen and (min-width: 820px) {
+  p{
+    font-size: 2.3vw;
+  }
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  p{
+    font-size: 2vw;
+  }
+}
+}
+
+
+/* footer */
+footer{
+  background-image: url(paper-footer.png);
+  background-size: cover;
+  text-align: center;
+  margin: 2% -0.5% -1% -1%;
+
+  #logos {
+    width: 100%;
+    text-align: center;
+    margin: 0% -0.5% -1% -1%;
+  } 
+  #socials{
+    text-align: center;
+    padding-top: 2%;
+    a{
+      text-decoration: none;
+    }
+    img{
+      width: 5%;
+    }
+  }
+  img{
+    max-width: 30%;
+    height: auto;
+  }
+  p{
+    margin: 1% 0% 1%;
+    padding-bottom: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5vw;
+    text-align: center;
+  }
+}
