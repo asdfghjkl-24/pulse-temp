@@ -1,7 +1,8 @@
 /* background */
 body {
     background-image: url(pulse\ background-resized-coloured.jpg);
-    background-size: contain;
+    background-size: cover;
+    background-attachment: fixed;
   }
 
 /* header */
@@ -49,7 +50,6 @@ header {
   margin-right: 83%;
   margin-left: -4%;
   position: absolute;
-
   p{
     font-family: Handjet, serif;
     margin-right: 0%;
@@ -66,6 +66,41 @@ header {
     margin-left: 10%;
     padding: 10% 10% 20% 10%;
     position: relative;
+    font-size: 2vw;
+  }
+}
+#sidebar-yes{
+  background-image: url(sidebar-paper.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 5%;
+  margin-right: 83%;
+  margin-left: -4%;
+  position: absolute;
+  p{
+    font-family: Handjet, serif;
+    margin-right: 0%;
+    line-height: 1.5;
+    margin-left: 10%;
+    margin-bottom: 5%;
+    padding: 4% 4% 0% 10%;
+    position: relative;
+    font-size: 2vw;
+  }
+  img{
+    width: 15%;
+    margin-left: 20%;
+  }
+  a{
+    font-family: Handjet, serif;
+    margin-right: 0%;
+    line-height: 1.7;
+    padding-top: -10%;
+    padding-left: 15%;
+    padding-right: 0%;
+    padding-right: 0%;
+    margin-left: -10%;
+    margin-top: 3px;
     font-size: 2vw;
   }
 }
@@ -244,7 +279,7 @@ padding-bottom: 0%;
     background-size: auto;
     background-repeat: repeat-y;
     margin-left: 15%;
-    margin-top: -4%;
+    margin-top: 0%;
     p{
       line-height: 2;
       font-size: 2vw;
