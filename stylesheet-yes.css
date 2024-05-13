@@ -1,0 +1,282 @@
+/* background */
+body {
+    background-image: url(pulse\ background-resized-coloured.jpg);
+     background-size: cover;
+    background-attachment: fixed;
+  }
+
+/* header */
+header {
+  img {
+    min-width: 20%;
+    max-width: 28%;
+    height: auto;
+  }
+  #topbar{
+    background-image: url(bio-paper.png);
+    background-size: 87% 50%;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin-left: 30%;
+    margin-top: -14%;
+    padding-bottom: 20%;
+  }
+  #toplinks{
+    font-family: Handjet, Serif;
+    font-size: 2.5vw;
+    margin-top: -17%;
+    margin-left: 35%;
+    padding-left: -10%;
+    padding-bottom: 10%;
+    a {
+      padding-right: 4%;
+    }
+  }
+  #issue-2{
+    width: 25%;
+    text-align: right;
+    margin-left: 74%;
+    margin-top: -14.5%;
+    padding-bottom: 7%;
+  }
+  }
+
+/* sidebar */
+#sidebar{
+  background-image: url(sidebar-paper.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 5%;
+  margin-right: 83%;
+  margin-left: -4%;
+  position: absolute;
+
+  p{
+    font-family: Handjet, serif;
+    margin-right: 0%;
+    line-height: 1.5;
+    margin-left: 10%;
+    padding: 10% 10% 20% 10%;
+    position: relative;
+    font-size: 2vw;
+  }
+  a{
+    font-family: Handjet, serif;
+    margin-right: 0%;
+    line-height: 1.5;
+    margin-left: 10%;
+    padding: 10% 10% 20% 10%;
+    position: relative;
+    font-size: 2vw;
+  }
+}
+#sidebar-yes{
+  background-image: url(sidebar-paper.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 5%;
+  margin-right: 83%;
+  margin-left: -4%;
+  position: absolute;
+  p{
+    font-family: Handjet, serif;
+    margin-right: 0%;
+    line-height: 1.5;
+    margin-left: 10%;
+    margin-bottom: 5%;
+    padding: 4% 4% 0% 10%;
+    position: relative;
+    font-size: 2vw;
+  }
+  img{
+    width: 15%;
+    margin-left: 20%;
+  }
+  a{
+    font-family: Handjet, serif;
+    margin-right: 0%;
+    line-height: 1.7;
+    padding-top: -10%;
+    padding-left: 15%;
+    padding-right: 0%;
+    padding-right: 0%;
+    margin-left: -10%;
+    margin-top: 3px;
+    font-size: 2vw;
+  }
+}
+
+#team{
+    background-image: url(bio-team-paper.png);
+    background-size: 101% 100%;
+    background-repeat: no-repeat;
+    margin-left: 16%;
+    overflow: hidden;
+    h1{
+        font-family: Handjet, serif;
+        padding-top: 6%;
+        margin-left: 10%;
+        font-size: 5vw;
+        line-height: 1%;
+    }
+    h2{
+        font-family: Handjet, serif;
+        margin-left: 10%;
+        font-size: 3.5vw;
+        padding-top: 0%;
+        margin-top: 0%;
+        margin-bottom: -1%;
+        line-height: 93%;
+    }
+    img{
+        width: 26%;
+        margin-left: 7%;
+        padding-right: 3%;
+        padding-bottom: 1%;
+        padding-top: 8%;
+        float: left;
+        pointer-events: none;
+    }
+    p{
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 11%;
+        font-size: 2vw;
+        margin-right: 3%;
+        padding-bottom: 3%;
+    }
+}
+
+#team-short{
+    background-image: url(bio-team-paper.png);
+    background-size: 101% 100%;
+    background-repeat: no-repeat;
+    margin-left: 16%;
+    overflow: hidden;
+    h1{
+        font-family: Handjet, serif;
+        padding-top: 6%;
+        margin-left: 10%;
+        font-size: 5vw;
+        line-height: 1%;
+    }
+    h2{
+        font-family: Handjet, serif;
+        margin-left: 10%;
+        font-size: 3.5vw;
+        padding-top: 0%;
+        margin-top: 0%;
+        margin-bottom: -1%;
+        line-height: 93%;
+    }
+    img{
+        width: 26%;
+        margin-left: 8%;
+        padding-right: 3%;
+        padding-bottom: 4.5%;
+        padding-top: 7%;
+        float: left;
+        pointer-events: none;
+    }
+    p{
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 11%;
+        font-size: 2vw;
+        margin-right: 3%;
+        padding-bottom: 3%;
+    }
+}
+
+#covers{
+  margin-left: 17%;
+  margin-top: -6%;
+  margin-bottom: 6%;
+ img{
+  width: 100%;
+ }
+}
+
+#mission{
+  background-image: url(bio-team-paper.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  margin-left: 16%;
+  margin-top: -7%;
+  p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 7%;
+    font-size: 2vw;
+    margin-right: 3%;
+    padding-bottom: 3%;
+    line-height: 1.5;
+    padding-top: 4%;
+    margin-left: 10%;
+  }
+}
+
+#square{
+display: inline;
+  margin-top: -1%;
+  img{
+    width: 50%;
+  }
+}
+#square2{
+  margin-top: -46%;
+  text-align: right;
+img{
+  width: 50%;
+  height: 50%;
+}
+}
+#square3{
+  margin-top: 2%;
+  img{
+    width: 50%;
+    height: 50%;
+  }
+}
+#square4{
+  margin-top: -46%;
+  text-align: right;
+img{
+  width: 50%;
+  height: 50%;
+}
+}
+
+
+
+/* footer */
+footer{
+  background-image: url(paper-footer.png);
+  background-size: cover;
+  text-align: center;
+  margin: 2% -0.5% -1% -1%;
+
+  #logos {
+    width: 100%;
+    text-align: center;
+    margin: 0% -0.5% -1% -1%;
+  } 
+  #socials{
+    text-align: center;
+    padding-top: 2%;
+    a{
+      text-decoration: none;
+    }
+    img{
+      width: 5%;
+    }
+  }
+  img{
+    max-width: 30%;
+    height: auto;
+  }
+  p{
+    margin: 1% 0% 1%;
+    padding-bottom: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5vw;
+    text-align: center;
+  }
+}
